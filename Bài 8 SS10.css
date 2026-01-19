@@ -5,99 +5,76 @@
 }
 header {
     width: 100%;
-    height: 104.39px;
     background-color: #1e1e1e;
     position: fixed;
 }
-a {
-    height: 23px;
-    text-decoration: none;
-    color: #cccccc;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27.2px;
-    letter-spacing: 0%;
-    font-family: Poppins , sans-serif;
-    margin-top: 2px;
-    margin-left: 20px;
-}
-.titlebar {
-    width: 1200px;
-    height: 54.39px;
-    margin-top: 25px;
-    margin-left: 360px;
-    display: flex;
-    flex-direction: row;
-}
-.name {
-    width: 132.6px;
-    height: 43px;
-    margin-top: 5px;
-    margin-left: 40px;
-}
-.name h3 {
-    font-size: 32px;
+h3 {
     font-weight: 700;
+    font-size: 32px;
     font-style: bold;
     line-height: 54.4px;
     color: #d4af37;
+    margin-left: 400px;
+    margin-top: 40px;
+    margin-bottom: 31.39px;
+}
+a {
+    text-decoration: none;
+    font-family: Poppins ,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27.2px;
+    color: #cccccc;
+    margin-left: 30px;
 }
 .taskbar {
-    width: 326.61px;
-    height: 27.19px;
-    margin-left: 833.39px;
-    margin-top: 13.59px;
-    margin-right: 40px;
+    margin-top: 40.59px;
+    margin-bottom: 40.8px;
+    margin-right: 400px;
     display: flex;
     flex-direction: row;
+}
+.titlebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro {
+    width: 100%;
 }
 .intro img {
     width: 100%;
-    height: 600px;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 .menu {
-    width: 100%;
-    height: 751.59px;
-}
-.menu h2 {
-    width: 1840px;
-    height: 81.59px;
-    margin-top: 120px;
-    margin-left: 40px;
+    width: 100%;;
 }
 .outstanding {
-    font-weight: 700;
-    font-style: bold;
-    font-size: 48px;
-    line-height: 81.6px;
-    text-align: center;
+    
+    margin-top: 128px;
+    margin-bottom: 89.59px;
     color: #1e1e1e;
-}
-.food {
-    width: 1300px;
-    height: 350px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 80px;
-    margin-left: 310px;
-    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 48px;
+    font-style: bold;
+    text-align: center;
 }
 .food img {
     width: 300.25px;
     height: 350px;
     border-radius: 20px;
-    text-align: center;
+    margin-right: 33px;
+    margin-top: 10px;
+}
+.food {
+    margin-bottom: 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-.food1 {
-    margin-right: 33px  ;
+    justify-content: space-evenly;
 }
 .contact {
     width: 100%;
-    height: 453.38px;
     background-color: #1e1e1e;
 }
 .for_me {
@@ -106,18 +83,14 @@ a {
     font-size: 48px;
     line-height: 81.6px;
     font-style: bold;
-    padding-top: 120px;
-    padding-left: 811.17px;
+    padding-top: 128px;
+    text-align: center;
 }
 .commit {
     font-family: Poppins , sans-serif;
-    width: 899.14px;
-    height: 86.19px;
     margin-top: 51.6px;
-    margin-left: 510.53px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 123.59px;
 }
 .contact p {
     color: #dddddd;
@@ -128,8 +101,8 @@ a {
 footer {
     background-color: black;
     width: 100%;
-    height: 85.5px;
-    padding-left: 758px;
-    padding-top: 32.03px;
+    text-align: center;
     color: #888888;
+    padding-top: 32.03px;
+    padding-bottom: 32.47px;
 }
