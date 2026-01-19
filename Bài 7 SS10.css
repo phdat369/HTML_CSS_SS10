@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: auto;
+    height: 600px;
+    color: white;
+}
+.introduce {
+    position: relative;
+    text-align: center;
+    bottom: 330px;
+}
+.menu img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+header img {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.introduce p {
+    font-size: 16px;
+}
+main {
+    width: auto;
+    background-color: #f8f5f0;
+}
+.menu {
+    width: auto;
+    min-height: 750px;
+    height: auto;
+    border: 1px solid #f8f5f0;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    color: white;
+    align-content: space-around;
+    margin-bottom: 20px;
+    padding-left: 360px;
+    padding-right: 360px;
+}
+.food {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+h3 {
+    font-size: 22px;
+}
+.register {
+    height: 481.89;
+    border: 1px solid #8b0000;
+    background-color: #8b0000;
+    text-align: center;
+    padding-top: 81px;
+    color: white;
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 31px;
+}
+.register p {
+    font-size: 14px;
+}
+.infor {
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.infor input {
+    width: 300px;
+    height: 54.89px;
+    border-radius: 8px;
+    border-color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="submit"] {
+    width: 301.94px;
+    height: 51px;
+    color: #8b0000;
+    border: 1px solid #8b0000;
+    background-color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #1e1e1e;
+    height: 98px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
